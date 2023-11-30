@@ -6,11 +6,11 @@ if [ -f /usr/bin/apt ]; then
 fi
 
 echo "\
-    cupy=12.2.0 \
-    lxml=4.9.3  \
-    rapidfuzz=3.5.2 \
-    spacy_cpu_model=3.7.0 \
-    spacy_trf_model=3.7.2 \
-    thinc-apple-ops=0.1.4 \
-    torch=2.1.1 \
-    typing-extensions=4.8.0" >> /mod-pip-packages-to-install.list
+    cupy==12.2.0 \
+    lxml==4.9.3  \
+    rapidfuzz==3.5.2 \
+    spacy_cpu_model==3.7.0 \
+    spacy_trf_model==3.7.2 \
+    thinc-apple-ops==0.1.4 \
+    torch==2.1.1 \
+    typing-extensions==4.8.0" >> /mod-pip-packages-to-install.list
